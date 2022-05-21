@@ -1,15 +1,15 @@
-package com.shoppi.app
+package com.shoppi.app.model
 
 import com.google.gson.annotations.SerializedName
 
 data class BannerItem(
     @SerializedName("background_img_url")val backgroundImgUrl:String,
-    val badge:BannerBadge,
+    val badge: BannerBadge,
     val label:String,
     @SerializedName("product_detail")val productDetail: ProductDetail
 )
 data class HomeData(
-    val title:Title,
+    val title: Title,
     @SerializedName("top_banners")val topBanners : List<BannerItem> //Serialized name for Gson
 )
 data class BannerBadge(

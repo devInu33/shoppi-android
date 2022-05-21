@@ -1,4 +1,4 @@
-package com.shoppi.app
+package com.shoppi.app.ui.home
 
 import android.graphics.Color
 import android.graphics.drawable.ColorDrawable
@@ -6,14 +6,18 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
-import android.widget.ListAdapter
 import android.widget.TextView
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
+import com.shoppi.app.model.BannerItem
+import com.shoppi.app.GlideApp
+import com.shoppi.app.R
 import java.text.DecimalFormat
 import kotlin.math.roundToInt
 
-class HomeBannerAdapter :androidx.recyclerview.widget.ListAdapter<BannerItem,HomeBannerAdapter.HomeBannerViewHolder>(BannerDiffCallback()){ //Adapter는 DiffUtil을 인자로 받아 데이터를 뷰홀더에 바인딩함
+class HomeBannerAdapter :androidx.recyclerview.widget.ListAdapter<BannerItem, HomeBannerAdapter.HomeBannerViewHolder>(
+    BannerDiffCallback()
+){ //Adapter는 DiffUtil을 인자로 받아 데이터를 뷰홀더에 바인딩함
 
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): HomeBannerViewHolder {
@@ -35,7 +39,7 @@ class HomeBannerAdapter :androidx.recyclerview.widget.ListAdapter<BannerItem,Hom
         private val detailDiscountPrice= view.findViewById<TextView>(R.id.tv_banner_detail_discount_price)
         private val detailOriginalPrice= view.findViewById<TextView>(R.id.tv_banner_detail_original_price)
 
-        fun bind(banner:BannerItem){//뷰홀더 내부의 뷰참조는 itemView
+        fun bind(banner: BannerItem){//뷰홀더 내부의 뷰참조는 itemView
             loadImg(banner.backgroundImgUrl, bannerImageView)
             bannerBadgeTextView.text = banner.badge.label
             bannerBadgeTextView.background = ColorDrawable(Color.parseColor(banner.badge.backgroundColor)) //colorcode to drawable
