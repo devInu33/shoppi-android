@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Toolbar
+            android:id="@+id/toolbar_category_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:navigationIcon="@drawable/ic_gnb_back"
+            app:layout_scrollFlags="scroll|enterAlways"
+            tools:title="여성패션"
+            android:contentInsetStartWithNavigation="0dp"
+            android:titleTextAppearance="@style/TextMedium.Bold"
+            />
+    </com.google.android.material.appbar.AppBarLayout>
+<!--        리사이클러뷰는 이미 스크롤 기능 구-->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_category_detail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            android:orientation="vertical"
+            />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</layout>
+

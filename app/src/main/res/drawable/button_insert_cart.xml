@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <size android:height="48dp" android:width="186dp"/>
+    <corners android:radius="24dp"/>
+    <gradient android:startColor="@color/shoppi_gradient_pink" android:endColor="@color/shoppi_gradient_purple"/>
+
+</shape>

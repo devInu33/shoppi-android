@@ -1,0 +1,216 @@
+
+
+{
+  "fashion_female": {
+    "top_selling": {
+      "title": {
+        "text": "인기상품"
+      },
+      "categories": [
+        {
+          "category_id": "fashion_jacket",
+          "label": "자켓",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/84079237/169739722-91fd56f2-ad97-4b02-9e7d-25833ee4c1e7.png",
+          "updated": true
+        },
+        {
+          "category_id": "fashion_belt",
+          "label": "벨트",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/84079237/169739734-be3710e7-457b-40c9-b463-f6344b33335b.png",
+          "updated": false
+        },
+        {
+          "category_id": "fashion_sweater",
+          "label": "스웨터",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/84079237/169739738-d67782c8-a8b2-422f-adfe-64776c7fe1fa.png",
+          "updated": false
+        },
+        {
+          "category_id": "fashion_cap",
+          "label": "캡모자",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/84079237/169739740-20b4066e-5e8d-4403-9430-644fc875aba7.png",
+          "updated": false
+        },
+        {
+          "category_id": "fashion_shirts",
+          "label": "셔츠",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/84079237/169739742-f38b52e3-5a94-4283-9c87-57a9559f2eaa.png",
+          "updated": false
+        },
+        {
+          "category_id": "fashion_skirt",
+          "label": "스커트",
+          "thumbnail_image_url": "https://user-images.githubusercontent.com/84079237/169739751-6621cfa8-668a-454f-a74e-ea79ccf25cb0.png",
+          "updated": false
+        }
+      ]
+    },
+    "promotion": {
+      "title": {
+        "text":"추천상품"
+      },
+      "items": [
+        {
+          "label": "[19차 리오더] 페이크 레더 숏 테일러 자켓 블랙",
+          "discount_rate": 10,
+          "price": 102000,
+          "represent_image_url": "https://user-images.githubusercontent.com/84079237/169739756-bbcb12cd-4221-4b09-959c-e1d03adc3ca8.png",
+          "product_id": "jacket_1"
+        },
+        {
+          "label": "캐시미어 100% 터틀넥 스웨터",
+          "discount_rate": 15,
+          "price": 90000,
+          "represent_image_url": "https://user-images.githubusercontent.com/84079237/169739763-a8321c62-12bc-4ff3-bb9e-ee8001cb76a6.png",
+          "product_id": "sweater_1"
+        },
+        {
+          "label": "반팔 스트라이프 스웨터",
+          "discount_rate": 20,
+          "price": 33000,
+          "represent_image_url": "//https://user-images.githubusercontent.com/84079237/169739770-7b20b4e9-22be-4de0-8f4a-fa2a1d69262b.png",
+          "product_id": "sweater_1"
+        },
+        {
+          "label": "화이트 스포츠 점퍼",
+          "discount_rate": 20,
+          "price": 150000,
+          "represent_image_url": "https://user-images.githubusercontent.com/84079237/169739777-026e54de-b0d0-4c63-8d0c-9350e4682446.png",
+          "product_id": "sports_1"
+        }
+      ]
+    }
+  }
+,
+  "categories": [
+    {
+      "category_id": "fashion_female",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/84079237/169700845-2e64ff1e-975a-43d3-a997-ca8ff10809b6.jpg",
+      "label": "여성패션",
+      "updated": false
+    },
+    {
+      "category_id": "fashion_male",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/84079237/169700872-66f7fc33-c828-4c6d-944f-6d799d8ea25f.jpg",
+      "label": "남성패션",
+      "updated": false
+    },
+    {
+      "category_id": "fashion_kids",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/84079237/169700874-0c3ac0cb-77db-4018-843a-e582bcfe0656.jpg",
+      "label": "유아동",
+      "updated": false
+    },
+    {
+      "category_id": "electronics",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/84079237/169700876-45205c1b-ff16-4952-b429-c868baed9837.jpg",
+      "label": "가전/디지털",
+      "updated": false
+    },
+    {
+      "category_id": "furniture",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/84079237/169700881-b88bd51b-20f5-45fb-980c-27872a3d1681.jpg",
+      "label": "가구/인테리어",
+      "updated": true
+    },
+    {
+      "category_id": "sports",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/84079237/169700885-0c04737d-fd40-4096-98ed-d0ff7c25fc41.jpg",
+      "label": "스포츠/레저",
+      "updated": false
+    },
+    {
+      "category_id": "books",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/84079237/169700890-e0ba614d-e38a-4107-9d10-800e885c8a07.jpg",
+      "label": "도서/음반",
+      "updated": false
+    },
+    {
+      "category_id": "pets",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/84079237/169700895-ed2c3c02-77b4-418b-9721-577c47561de8.jpg",
+      "label": "반려동물",
+      "updated": false
+    },
+    {
+      "category_id": "car",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/84079237/169700896-9d16f733-7973-409c-aba8-c465872bde57.jpg",
+      "label": "자동차",
+      "updated": false
+    },
+    {
+      "category_id": "fancy_goods",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/84079237/169700899-d698732b-b411-4ee5-a47e-83e32d40000c.jpg",
+      "label": "잡화",
+      "updated": false
+    },
+    {
+      "category_id": "foods",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/84079237/169700900-5cbcbc35-b6a4-4063-9a5d-9e32f4a91d85.jpg",
+      "label": "식품",
+      "updated": true
+    },
+    {
+      "category_id": "beauty",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/84079237/169700902-cd0d2f9c-5b83-4e4f-8326-aa2195b1a655.jpg",
+      "label": "뷰티",
+      "updated": true
+    }
+  ],
+  "products": {
+    "FW-twg-sweater-1": {
+      "brand_name": "twg. official",
+      "label": "캐시미어 100% 터틀넥 스웨터",
+      "discount_rate": 9,
+      "price": 102000,
+      "type": "Free",
+      "representative_image_url": "https://user-images.githubusercontent.com/20774764/149948250-8968498e-e204-4b35-8d52-8d9aecd1d54a.png",
+      "descriptions": [
+        {
+          "id": "FW-twg-sweater-1-desc-1",
+          "image_url": "https://user-images.githubusercontent.com/20774764/154342920-f92e9ce0-4491-427b-9119-97138f102a82.jpg"
+        },
+        {
+          "id": "FW-twg-sweater-1-desc-2",
+          "image_url": "https://user-images.githubusercontent.com/20774764/154342942-1956ebb2-cc25-4b71-acc4-702f4a1783c6.jpg"
+        }
+      ],
+      "product_id": "FW-twg-sweater-1"
+    },
+    "desk-1": {
+      "brand_name": "Desk",
+      "label": "슬림 데스크 800",
+      "discount_rate": 16,
+      "price": 160000,
+      "type": "1800x720",
+      "representative_image_url": "https://user-images.githubusercontent.com/20774764/149948259-9806ff37-0719-4e34-b11f-be0056c7fea8.png",
+      "descriptions": [
+        {
+          "id": "desk-1-desc-1",
+          "image_url": "https://user-images.githubusercontent.com/20774764/154342940-3051dba1-cf0c-4460-a892-65b7bf334fcb.jpg"
+        },
+        {
+          "id": "desk-1-desc-2",
+          "image_url": "https://user-images.githubusercontent.com/20774764/154342948-3744fd53-3963-4994-bccc-796313489e1a.jpg"
+        },
+        {
+          "id": "desk-1-desc-3",
+          "image_url": "https://user-images.githubusercontent.com/20774764/154342950-01d232ac-210e-4e89-8395-f7aa5a2d9a64.jpg"
+        }
+      ],
+      "product_id": "desk-1"
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

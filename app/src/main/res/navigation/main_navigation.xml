@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main_navigation"
     app:startDestination="@id/navigation_home">
-<!--   처음 추가한 fragment가 startDestination으로 자동 지정됨-->
+    <!--   처음 추가한 fragment가 startDestination으로 자동 지정됨-->
 
     <fragment
         android:id="@+id/navigation_home"
         android:name="com.shoppi.app.ui.home.HomeFragment"
-        android:label="HomeFragment" >
+        android:label="HomeFragment"
+
+        >
         <action
             android:id="@+id/action_home_to_product_detail"
             app:destination="@id/navigation_product_detail" />
@@ -19,10 +22,20 @@
         android:label="CartFragment" />
     <fragment
         android:id="@+id/navigation_category"
-        android:name="com.shoppi.app.ui.CategoryFragment"
-        android:label="CategoryFragment" />
+        android:name="com.shoppi.app.ui.category.CategoryFragment"
+        android:label="CategoryFragment"
+        tools:layout="@layout/fragment_category">
+        <action
+            android:id="@+id/action_category_to_category_detail"
+            app:destination="@id/navigation_category_detail" />
+    </fragment>
     <fragment
         android:id="@+id/navigation_product_detail"
-        android:name="com.shoppi.app.ui.ProductDetailFragment"
+        android:name="com.shoppi.app.ui.productdetail.ProductDetailFragment"
         android:label="ProductDetailFragment" />
+    <fragment
+        android:id="@+id/navigation_category_detail"
+        android:name="com.shoppi.app.ui.categorydetail.CategoryDetailFragment"
+        android:label="CategoryDetailFragment"
+        tools:layout="@layout/fragment_category_detail" />
 </navigation>
