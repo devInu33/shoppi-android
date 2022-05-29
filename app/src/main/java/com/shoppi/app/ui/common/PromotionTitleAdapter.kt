@@ -1,4 +1,4 @@
-package com.shoppi.app.ui.categorydetail
+package com.shoppi.app.ui.common
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
@@ -9,9 +9,9 @@ import com.shoppi.app.databinding.ItemTitleBinding
 import com.shoppi.app.model.Title
 
 class PromotionTitleAdapter() :
-    ListAdapter<Title, PromotionTitleAdapter.CategoryTitleViewHolder>(TitleDiffCallback()) {
+    ListAdapter<Title, PromotionTitleAdapter.PromotionTitleitleViewHolder>(TitleDiffCallback()) {
 
-    class CategoryTitleViewHolder(private val binding: ItemTitleBinding) :
+    class PromotionTitleitleViewHolder(private val binding: ItemTitleBinding) :
         RecyclerView.ViewHolder(binding.root) {
         fun bind(title: Title) {
             binding.title = title
@@ -20,12 +20,12 @@ class PromotionTitleAdapter() :
 
     }
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CategoryTitleViewHolder {
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): PromotionTitleitleViewHolder {
         val binding = ItemTitleBinding.inflate(LayoutInflater.from(parent.context), parent, false)
-        return CategoryTitleViewHolder(binding)
+        return PromotionTitleitleViewHolder(binding)
     }
 
-    override fun onBindViewHolder(holder: CategoryTitleViewHolder, position: Int) {
+    override fun onBindViewHolder(holder: PromotionTitleitleViewHolder, position: Int) {
         holder.bind(getItem(position))
     }
 }

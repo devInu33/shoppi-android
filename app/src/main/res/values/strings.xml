@@ -9,4 +9,8 @@
     <string name="label_home_icon">홈</string>
     <string name="label_cart_icon">장바구니</string>
     <string name="label_category_new">NEW</string>
+    <string name="label_cart_purchase_button">선택한 상품 주문하기</string>
+    <string name="description_cart_item_thumbnail">장바구니 아이템 썸네일</string>
+    <string name="description_btn_cart_item_delete">장바구니 아이템 삭제</string>
+    <string name="description_btn_item_minus">장바구니 아이템 개수 1개 차감</string>
 </resources>

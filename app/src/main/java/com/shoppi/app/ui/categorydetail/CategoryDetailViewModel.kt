@@ -18,7 +18,7 @@ class CategoryDetailViewModel(private val repository: CategoryDetailRepository) 
     val promotion :LiveData<Promotion> = _promotion
 
 
-     fun loadCategoryDetail(categoryId: String) {
+     fun loadCategoryDetail(categoryId: String="fashion_female") {
         viewModelScope.launch {
             val categoryDetail = repository.getCategoryDetail(categoryId)
             Log.d("categorydetail", categoryDetail.toString())//잘나옵니다.

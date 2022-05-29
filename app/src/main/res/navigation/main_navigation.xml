@@ -18,7 +18,7 @@
     </fragment>
     <fragment
         android:id="@+id/navigation_cart"
-        android:name="com.shoppi.app.ui.CartFragment"
+        android:name="com.shoppi.app.ui.cart.CartFragment"
         android:label="CartFragment" />
     <fragment
         android:id="@+id/navigation_category"
@@ -37,5 +37,9 @@
         android:id="@+id/navigation_category_detail"
         android:name="com.shoppi.app.ui.categorydetail.CategoryDetailFragment"
         android:label="CategoryDetailFragment"
-        tools:layout="@layout/fragment_category_detail" />
+        tools:layout="@layout/fragment_category_detail" >
+        <action
+            android:id="@+id/action_category_detail_to_product_detail"
+            app:destination="@id/navigation_product_detail" />
+    </fragment>
 </navigation>

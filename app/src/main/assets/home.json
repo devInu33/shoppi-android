@@ -1,5 +1,5 @@
 {
-  "title":{
+  "title": {
     "text": "Ivy님, 이런 상품\n어떠세요?",
     "icon_url": "https://user-images.githubusercontent.com/84079237/169553416-c5e37d2e-ad25-4e57-8095-0644f64aab83.png"
   },
@@ -10,7 +10,7 @@
         "label": "기획전",
         "background_color": "#52514d"
       },
-      "label":"따스한 겨울\n준비하기",
+      "label": "따스한 겨울\n준비하기",
       "product_detail": {
         "brand_name": "twg. official",
         "label": "캐시미어 100% 터틀넥 스웨터",
@@ -26,7 +26,7 @@
         "label": "기획전",
         "background_color": "#967a6d"
       },
-      "label":"나만의\n홈 오피스",
+      "label": "나만의\n홈 오피스",
       "product_detail": {
         "brand_name": "Desk",
         "label": "슬림 데스크 800",
@@ -36,5 +36,40 @@
         "product_id": "desk-1"
       }
     }
-  ]
+  ],
+  "promotion": {
+    "title": {
+      "text": "추천상품"
+    },
+    "items": [
+      {
+        "label": "[19차 리오더] 페이크 레더 숏 테일러 자켓 블랙",
+        "discount_rate": 10,
+        "price": 102000,
+        "represent_image_url": "https://user-images.githubusercontent.com/84079237/169739756-bbcb12cd-4221-4b09-959c-e1d03adc3ca8.png",
+        "product_id": "jacket_1"
+      },
+      {
+        "label": "캐시미어 100% 터틀넥 스웨터",
+        "discount_rate": 15,
+        "price": 90000,
+        "represent_image_url": "https://user-images.githubusercontent.com/84079237/169739763-a8321c62-12bc-4ff3-bb9e-ee8001cb76a6.png",
+        "product_id": "sweater_1"
+      },
+      {
+        "label": "반팔 스트라이프 스웨터",
+        "discount_rate": 20,
+        "price": 33000,
+        "represent_image_url": "//https://user-images.githubusercontent.com/84079237/169739770-7b20b4e9-22be-4de0-8f4a-fa2a1d69262b.png",
+        "product_id": "sweater_1"
+      },
+      {
+        "label": "화이트 스포츠 점퍼",
+        "discount_rate": 20,
+        "price": 150000,
+        "represent_image_url": "https://user-images.githubusercontent.com/84079237/169739777-026e54de-b0d0-4c63-8d0c-9350e4682446.png",
+        "product_id": "sports_1"
+      }
+    ]
+  }
 }

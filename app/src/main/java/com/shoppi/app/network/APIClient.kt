@@ -2,8 +2,9 @@ package com.shoppi.app.network
 
 import com.shoppi.app.model.Category
 import com.shoppi.app.model.CategoryDetail
+import com.shoppi.app.model.HomeData
 import com.shoppi.app.model.Product
-import com.shoppi.app.model.ProductDetail
+
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
@@ -15,10 +16,13 @@ import retrofit2.http.Path
 interface APIClient{
     @GET("categories.json")
     suspend fun getCategories():List<Category>
+
     @GET("{categoryId}.json")
     suspend fun getCategoryDetail(@Path("categoryId") categoryId:String): CategoryDetail
-    @GET("productdetail.json")
+
+    @GET("products/{productId}.json")
     suspend fun getProductDetail(@Path("productId") productId:String): Product
+
     companion object {
         private const val baseUrl = "https://shoppi-428ff-default-rtdb.asia-southeast1.firebasedatabase.app/"
         fun Create(): APIClient {
